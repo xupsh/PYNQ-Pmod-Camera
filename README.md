@@ -5,9 +5,10 @@
 - 本工程中介绍的PMOD摄像头，可以自行淘宝购买
 
 ## 资料
-PMOD摄像头 TDM114 [https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-pmod-tdm114-g-3074457345633278168/](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-pmod-tdm114-g-3074457345633278168/)
+PMOD摄像头 TDM114 
 
-![pmod camera](https://www.avnet.com/opasdata/d120001/derivates/2/072/230/143/AES-TDM114-Image_web.jpg)
+[https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-pmod-tdm114-g-3074457345633278168/](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-pmod-tdm114-g-3074457345633278168/)
+
 
 TDM114_on_pynq的参考工程的链接：https://pan.baidu.com/s/1yESFJrVwx1nFKySRridOzw 密码：7h9q
 - PYNQ_HDMI_TDM114是TDM114摄像头输入，HDMI输出，需要接在1080P的显示器上
