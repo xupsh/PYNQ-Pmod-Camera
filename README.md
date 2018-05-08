@@ -1,11 +1,15 @@
 # PYNQ-Pmod-Camera
 使用PYNQ做视频/视觉应用的时候，其输入源可以有这么几种
-- 板载HDMI In输入，可以使用PC+HDMI线直接作为输入，或者另外购买一个电视盒子作为HDMI输入。还有更多HDMI输入方式也都可以作为视频源
+- 板载HDMI In输入，可以使用PC+HDMI线直接作为输入，或者另外购买一个电视盒子作为HDMI输入。还有更多HDMI输入方式也都可以作为视频源，这也是我们推荐在demo阶段使用的方法。
 - USB摄像头输入，缺点是USB传输带宽较小
 - 本工程中介绍的PMOD摄像头，可以自行淘宝购买
 
 ## 资料
-百度网盘链接：https://pan.baidu.com/s/1yESFJrVwx1nFKySRridOzw 密码：7h9q
+PMOD摄像头 TDM114 [https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-pmod-tdm114-g-3074457345633278168/](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-pmod-tdm114-g-3074457345633278168/)
+
+![pmod camera](https://www.avnet.com/opasdata/d120001/derivates/2/072/230/143/AES-TDM114-Image_web.jpg)
+
+TDM114_on_pynq的参考工程的链接：https://pan.baidu.com/s/1yESFJrVwx1nFKySRridOzw 密码：7h9q
 - PYNQ_HDMI_TDM114是TDM114摄像头输入，HDMI输出，需要接在1080P的显示器上
 - PYNQ_HDMI_IO是HDMI输入，HDMI输出
 - PYNQ_HDMI_4in1在PYNQ_HDMI_IO基础上添加了一个HLS生成的视频处理IP，用Window buffer和linebuffer写的，可以以此为基础自己写视频处理函数
@@ -18,3 +22,7 @@
   ls
   ```
   就可以看到SD卡存放的文件了
+
+> 淘宝也可以买到其它型号的PMOD摄像头
+## QA
+有疑问请在issue界面进行提问[https://github.com/xupsh/PYNQ-Pmod-Camera/issues](https://github.com/xupsh/PYNQ-Pmod-Camera/issues)
